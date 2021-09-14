@@ -9,6 +9,21 @@ body {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+.footer a,
+.about a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1.1rem;
+  color: steelblue;
+  transition: text-decoration 0.5s;
+}
+
+.footer a:hover,
+.about a:hover {
+  text-decoration: underline;
+  transition: text-decoration 0.5s;
+}
+
 .container {
   max-width: 500px;
   margin: 30px auto;

@@ -1,6 +1,10 @@
 <header>
-  <h1>{{ title }}</h1>
+  <h1>
+    <fa-icon [ngStyle]="{ color: '#c53f34' }" [icon]="faAngular"> </fa-icon>
+    {{ title }}
+  </h1>
   <app-button
+    *ngIf="hasRoute('/')"
     color="{{ showAddTask ? '#ff1852' : '#c211a7' }}"
     text="{{ showAddTask ? 'Close' : 'Add' }}"
     (btnClick)="toggleAddTask()"
