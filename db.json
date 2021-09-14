@@ -17,6 +17,12 @@
       "text": "Go to an interview",
       "day": "September 15th at 12:30",
       "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Test",
+      "day": "You can delete me",
+      "reminder": false
     }
   ]
 }
