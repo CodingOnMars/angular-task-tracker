@@ -1,10 +1,28 @@
-# MyApp
+# Angular task tracker
+
+> In this project, I created a task tracker based on Angular Crash Course by Traversy Media.
+> This simple task tracker allows user to add new and delete added tasks.
+> Users can input task name, date and time. Also users can set a reminder for a task (that highlight it with green color) by checking a mark or by double clicking on a task.
+
+## App Screenshots
+
+![screenshot](src/images/task-tracker-1.png)
+![screenshot](src/images/task-tracker-2.png)
+![screenshot](src/images/task-tracker-3.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.5.
 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+Alternatively you can use 'ng serve --open'. This will open `http://localhost:4200/` in a browser for you.
+
+## JSON-server
+
+The app emulates work with backend using local JSON-server extension.
+
+To make the app work, you should also run local json-server using `npm run server` command. Server will be run at `http://localhost:5000`.
 
 ## Code scaffolding
 
